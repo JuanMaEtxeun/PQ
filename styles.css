@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.texto_imagen_header{
+    padding-top: 750px;
+    margin-right: 250px;
+    color: white;
+    float: right;
+    margin-top: -58vw;
+    position: relative;
+    z-index: 1000;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+}
+
+/*.carrusel_texto{
+    display: inline-block;
+}*/
+
+.imagen_texto_section{
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: normal;
+    align-items: normal;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: rgb(28, 28, 28);
+    color:white;
+    
+}
+
+.div_imagen_section{
+    width:50%;
+    height: 30em;
+    background-image: url(fotosPQ/Pequod2.jpg);
+    background-size: cover;
+    
+}
+
+.div_texto_section{
+    
+    width: 50%;
+    text-align: right;
+    background-color: rgb(28, 28, 28);
+}
+#conoce_mas{
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.lugar{
+    padding: 20px;
+}    
+    
+.se_orador {
+    
+    width: 50%;
+    margin: 0 auto 2em;
+    text-align: center;
+}
+
+.oradores{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+form{
+    display: block;
+}
+
+#boton_enviar{
+    width: 100%;
+    margin-left: 1%;
+    border: 0;
+    background-color: #57a404;
+}
+#titulo_charla{
+    text-align: left;
+}
+footer{
+    width: 100%;
+    height: 10em;
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: space-around;
+    align-items: normal;
+    background: linear-gradient( 90deg, #02395e,rgb(89, 164, 215));
+}
+ul{
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: space-around;
+    align-items: normal;
+
+}
+footer a{
+    color: white;
+    padding: 0 2em;
+}
